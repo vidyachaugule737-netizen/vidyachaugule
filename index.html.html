@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My project</title>
+
+<style>
+    
+      body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth;
+
+    background-image: url("download (6).jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    /* Navbar */
+    nav {
+        background: yellow;
+        padding: 15px;
+        position: sticky;
+        top: 0;
+        text-align: center;
+    }
+
+    nav a {
+        color: red;
+        margin: 10px;
+        text-decoration: none;
+        font-size: 16px;
+    }
+
+    nav a:hover {
+        color: #00adb5;
+    }
+
+    /* Sections */
+    section {
+        padding: 50px;
+        text-align: center;
+    }
+
+    #home {
+        background: #00adb5;
+        color: pink;
+    }
+
+    .card {
+        background: pink;
+        margin: 15px auto;
+        padding: 20px;
+        border-radius: 10px;
+        width: 80%;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    img {
+        width: 150px;
+        border-radius: 50%;
+    }
+
+    h2 {
+        color: #333;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    ul li {
+        background: #ddd;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+</style>
+</head>
+
+<body>                                                                                                                                      
+
+<!-- Navbar -->
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#policies">Policies</a>
+    <a href="#calculator">Premium Calculator</a>
+    <a href="#contact">Contact</a>
+</nav>
+<!-- Home -->
+<section id="home">
+    <img src="C:\Users\Admin\Downloads\download (5).jfif" alt="Profile Photo">
+    <h1>Life Insurance Corporation</h1>
+    
+</section>
+
+<!-- About -->
+<section id="about">
+    <div class="card">
+        <!-- HOME -->
+<section id="home" class="section">
+    <h2>Welcome to LIC</h2>
+    <img src="C:\Users\Admin\Downloads\download (7).jfif">
+    <p>
+        LIC is the largest insurance company in India. It provides financial security 
+        and investment opportunities to millions of people.
+    </p>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2>About LIC</h2>
+    <p><b>Founded:</b> 1956</p>
+    <p>
+        LIC was formed after nationalization of insurance industry in India.
+        It offers life insurance products and investment services.
+    </p>
+
+    <h3>Symbol Meaning</h3><img src="C:\Users\Admin\Downloads\download (5).jfif">
+    <p>
+        The LIC logo shows two hands protecting a lamp which means protection, trust and security.
+    </p>
+</section>
+
+<!-- POLICIES -->
+<section id="policies" class="section">
+    <h2>LIC Policies</h2>
+    <ul>
+   <li>Term Insurance Plan</li><img src="C:\Users\Admin\Downloads\download (1).jfif"> 
+        <li>Whole Life Policy</li><img src="C:\Users\Admin\Downloads\download (2).jfif"> 
+        <li>Endowment Plan</li><img src="C:\Users\Admin\Downloads\download (3).jfif"> 
+        <li>Money Back Plan</li><img src="C:\Users\Admin\Downloads\download (4).jfif"> 
+        <li>Pension Plan</li><img src="C:\Users\Admin\Downloads\images (1).jfif"> 
+    </ul>
+</section>
+
+<!-- CALCULATOR -->
+<section id="calculator" class="section">
+    <h2>Premium Calculator</h2>
+
+    Age: <input type="number" id="age"><br><br>
+    Amount: <input type="number" id="amount"><br><br>
+
+    <button onclick="calculate()">Calculate Premium</button>
+
+    <h3 id="result"></h3>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <form>
+        Name:<br> Vidya Gunvant Chaugule
+       
+
+        Email:<br> vidyachaugule737@gmail.com
+       
+
+        mobail no. :<br>9763142952
+        
+
+        <input type="submit" value="Send">
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 LIC Micro Project | Made by Student</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
